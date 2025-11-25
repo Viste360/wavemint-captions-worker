@@ -1,3 +1,12 @@
-# Wavemint Caption Worker (Skeleton)
+# Wavemint Captions Worker
 
-Upload to GitHub → then I will generate full Whisper + GPT caption logic.
+Handles Whisper AI transcription using OpenAI `gpt-4o-transcribe`.
+
+### Endpoints
+
+#### POST `/api/captions/generate`
+
+Upload an audio file under the field name **audio**.
+
+### Environment Variables
+
